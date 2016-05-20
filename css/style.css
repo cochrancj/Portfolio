@@ -1,0 +1,424 @@
+body {
+background-image: url(../images/GrandCentral.jpg);
+background-size: cover;
+background-position: center;
+background-repeat: none;
+font-size: 16px;
+}
+
+h1 {
+  font-family: 'Alegreya Sans SC', sans-serif;
+  color: white;
+  font-size: 5em;
+  font-weight: 100;
+}
+
+p {
+  font-family: 'Julius Sans One', sans-serif;
+  font-weight: 400;
+  font-size: 1.3em;
+  letter-spacing: 1.5px;
+  -webkit-font-smoothing: antialiased;
+}
+
+ul {
+  font-family: 'Julius Sans One', sans-serif;
+  font-weight: 400;
+  font-size: 1.3em;
+  letter-spacing: 1.5px;
+  -webkit-font-smoothing: antialiased;
+}
+
+/*.header {
+  background-color: #555555;
+  height: 50px;
+}*/
+
+/*.wrapper {
+  background-image: url(../images/GrandCentral.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: none;
+}*/
+
+.jumbotron {
+  background-color: rgba(185,197,200,0.75);
+  width: 90%;
+  height: 600px;
+  margin: 0 auto;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  border-width: 5px;
+  border-style: double;
+  border-color: white;
+}
+
+.large {
+  background-color: rgba(185,197,200,.95);
+  width: 90%;
+  height: 90%;
+  margin: 0 auto;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  border-width: 5px;
+  border-style: double;
+  border-color: white;
+  padding-left: 1%;
+}
+
+.extralarge {
+  background-color: rgba(185,197,200,.95);
+  width: 90%;
+  height: 90%;
+  margin: 0 auto;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  border-width: 5px;
+  border-style: double;
+  border-color: white;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+.nav-boxes {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  padding-top: 25vh;
+  padding-bottom: 25vh;
+  width: 80%;
+/*  position: relative;
+*/  font-family: 'Julius Sans One', sans-serif;
+}
+
+.nav-button-about {
+  display: inline-block;
+  width: 100%;
+  padding: 8px;
+  color: #fff;
+  border: 2px solid #fff;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  transition: background-color 0.2s ease-out,
+              border-color 0.2s ease-out;
+  cursor: pointer;
+  margin: auto;
+}
+
+.nav-button-about:hover,
+.nav-button-about:active {
+  background-color: #fff; /*fallback*/
+  background-color: rgba(255,255,255,0.4);
+  border-color: #fff; /*fallback*/
+  border-color: rgba(255,255,255,0.4);
+  transition: background-color 0.3s ease-in,
+              border-color 0.3s ease-in;
+}
+
+.nav-button-cv {
+  display: inline-block;
+  width: 100%;
+  padding: 8px;
+  color: #fff;
+  border: 2px solid #fff;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  transition: background-color 0.2s ease-out,
+              border-color 0.2s ease-out;
+  cursor: pointer;
+    margin: auto;
+
+}
+
+.nav-button-cv:hover,
+.nav-button-cv:active {
+  background-color: #fff; /*fallback*/
+  background-color: rgba(255,255,255,0.4);
+  border-color: #fff; /*fallback*/
+  border-color: rgba(255,255,255,0.4);
+  transition: background-color 0.3s ease-in,
+              border-color 0.3s ease-in;
+}
+
+.nav-button-design {
+  display: inline-block;
+  width: 100%;
+  padding: 8px;
+  color: #fff;
+  border: 2px solid #fff;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  transition: background-color 0.2s ease-out,
+              border-color 0.2s ease-out;
+  cursor: pointer;
+    margin: auto;
+
+}
+
+.nav-button-design:hover,
+.nav-button-design:active {
+  background-color: #fff; /*fallback*/
+  background-color: rgba(255,255,255,0.4);
+  border-color: #fff; /*fallback*/
+  border-color: rgba(255,255,255,0.4);
+  transition: background-color 0.3s ease-in,
+              border-color 0.3s ease-in;
+}
+
+.nav-button-photography {
+  display: inline-block;
+  width: 100%;
+  padding: 8px;
+  color: #fff;
+  border: 2px solid #fff;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  transition: background-color 0.2s ease-out,
+              border-color 0.2s ease-out;
+  cursor: pointer;
+    margin: auto;
+
+}
+
+.nav-button-photography:hover,
+.nav-button-photography:active {
+  background-color: #fff; /*fallback*/
+  background-color: rgba(255,255,255,0.4);
+  border-color: #fff; /*fallback*/
+  border-color: rgba(255,255,255,0.4);
+  transition: background-color 0.3s ease-in,
+              border-color 0.3s ease-in;
+}
+
+.nav-button-writing {
+  display: inline-block;
+  width: 100%;
+  padding: 8px;
+  color: #fff;
+  border: 2px solid #fff;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  transition: background-color 0.2s ease-out,
+              border-color 0.2s ease-out;
+  cursor: pointer;
+    margin: auto;
+
+}
+
+.nav-button-writing:hover,
+.nav-button-writing:active {
+  background-color: #fff; /*fallback*/
+  background-color: rgba(255,255,255,0.4);
+  border-color: #fff; /*fallback*/
+  border-color: rgba(255,255,255,0.4);
+  transition: background-color 0.3s ease-in,
+              border-color 0.3s ease-in;
+}
+
+.nav-boxes ul {
+  list-style-type: none;
+  margin: 0 auto;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.nav-boxes li {
+  float: left;
+  padding: 3%;
+}
+
+
+#toggle_about {
+  color: white;
+  display: none;
+}
+
+#toggle_cv {
+  color: white;
+  display: none;
+}
+
+#toggle_cv ul {
+  list-style-type: none;
+}
+
+#toggle_design {
+  color: white;
+  display: none;
+}
+
+#toggle_design img {
+  padding-right: 20px;
+  padding-left: 20px;
+  width: 200px;
+  height: 90px;
+}
+
+#toggle_photography {
+  color: white;
+  display: none;
+}
+
+#toggle_photography img {
+  padding-right: 20px;
+  padding-left: 20px;
+  width: 200px;
+  height: 90px;
+}
+
+#toggle_writing {
+  color: white;
+  display: none;
+}
+
+#toggle_writing img {
+  padding-right: 20px;
+  padding-left: 20px;
+  width: 200px;
+  height: 90px;
+}
+
+.img-circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+footer {
+  background-color: black;
+  height: 100px;
+}
+
+
+.name {
+  float: left;
+  padding-right: 10px;
+  margin-left: 10px;
+  margin-top: -50px;
+}
+
+.social-media {
+  float: right;
+  padding-right: 10px;
+  margin-top: 10px;
+}
+
+.social-media li {
+  display: inline-block;
+  list-style-type: none;
+  /*padding: 20px;*/
+  transition: background-color 0.2s ease-out,
+              border-color 0.2s ease-out;
+}
+
+.social-media li:hover,
+.social-media li:active {
+  background-color: #fff; /*fallback*/
+  background-color: rgba(255,255,255,0.4);
+  border-color: #fff; /*fallback*/
+  border-color: rgba(255,255,255,0.4);
+  transition: background-color 0.3s ease-in,
+              border-color 0.3s ease-in;
+}
+
+.social-media img {
+  height: 45px;
+  width: 45px;
+}
+
+.clear {
+  float: none;
+}
+
+@media screen and (max-width: 774px) {
+
+    p {
+    font-size: 1em;
+    letter-spacing: 2px;
+    -webkit-font-smoothing: antialiased;
+    }
+
+    .jumbotron {
+    height: 500px;
+    }
+
+    .nav-boxes {
+    height: 40px;
+    width: 100px;
+    display: block;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 30%;
+    padding-bottom: 30%;
+    font-family: 'Julius Sans One', sans-serif;
+    }
+
+    .large {
+    background-color: rgba(185,197,200,.95);
+    width: 90%;
+    height: 90%;
+    margin: 0 auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    border-width: 5px;
+    border-style: double;
+    border-color: white;
+    padding-left: 1%;
+    padding-right: 1%;
+    }
+
+    .extralarge {
+    background-color: rgba(185,197,200,.95);
+    width: 90%;
+    height: 90%;
+    margin: 0 auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    border-width: 5px;
+    border-style: double;
+    border-color: white;
+    padding-left: 1%;
+    padding-right: 1%;
+    }
+
+    #toggle_cv ul {
+    font-size: 1em;
+    }
+
+    footer {
+      width: 100%;
+      height: 150px;
+    }
+
+    .name {
+      text-align: center;
+      margin-top: 2%;
+/*      margin-left: 4%;*/
+/*      padding-left: 7%;*/
+      float: none;
+    }
+
+    .name h1 {
+      font-size: 2.0em;
+      letter-spacing: 2px;
+    }
+
+    .social-media {
+/*      margin-top: 0.5%;*/
+      margin: 0 auto;
+      float: none;
+    }
+
+    .social-media img {
+      height: 30px;
+      width: 30px;
+    }
+
+  }
+
