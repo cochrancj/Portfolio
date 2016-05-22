@@ -12,7 +12,7 @@ $(document).ready(function(){
 
   $(".nav-button-design").click(function() {
     $("#toggle_design").toggle(1000);
-    $(".jumbotron").toggleClass("large");
+    $(".jumbotron").toggleClass("extralarge");
   });
 
   $(".nav-button-photography").click(function() {
@@ -29,18 +29,18 @@ $(document).ready(function(){
 
 
   // FIX JQUERY SO THAT WHEN YOU CLICK SOMETHING ELSE,
-  // THE DIV THAT IS EXPANDED COLLAPSES SO THE 
-  // NEW DIV CAN EXPAND. THIS DOES NOT WORK, BUT I 
+  // THE DIV THAT IS EXPANDED COLLAPSES SO THE
+  // NEW DIV CAN EXPAND. THIS DOES NOT WORK, BUT I
   // THINK IS CLOSE TO WORKING vv
 
   //   $(".jumbotron").click(function (e) {
-  //       if(e.target.className == "large" || "extralarge") {        
+  //       if(e.target.className == "large" || "extralarge") {
   //            e.stopPropagation();
   //       }
   //       else {
   //           $("*").removeClass("large" || "extralarge");
   //       }
-  //   }); 
+  //   });
 
   // THIS ALSO DOESN'T WORK vv
 

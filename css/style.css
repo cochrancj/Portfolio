@@ -1,3 +1,5 @@
+/* COMMON STYLES FOR ALL ELEMENTS */
+
 body {
   background-image: url(../images/GrandCentral.jpg);
   background-size: cover;
@@ -38,17 +40,7 @@ a {
   text-decoration: none;
   }
 
-/*.header {
-  background-color: #555555;
-  height: 50px;
-}*/
-
-/*.wrapper {
-  background-image: url(../images/GrandCentral.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: none;
-}*/
+/* MAIN BODY BOX */
 
 .jumbotron {
   background-color: rgba(185,197,200,0.75);
@@ -89,6 +81,8 @@ a {
   padding-right: 1%;
 }
 
+/* NAV BUTTONS */
+
 .nav-boxes {
   display: flex;
   justify-content: space-around;
@@ -97,8 +91,7 @@ a {
   padding-top: 25vh;
   padding-bottom: 25vh;
   width: 80%;
-/*  position: relative;
-*/  font-family: 'Julius Sans One', sans-serif;
+  font-family: 'Julius Sans One', sans-serif;
 }
 
 .nav-button-about {
@@ -242,6 +235,7 @@ a {
   padding: 3%;
 }
 
+/* TOGGLED SHOW BOXES */
 
 #toggle_about {
   color: white;
@@ -263,10 +257,10 @@ a {
 }
 
 #toggle_design img {
-  padding-right: 20px;
+  /*padding-right: 20px;
   padding-left: 20px;
   width: 200px;
-  height: 90px;
+  height: 90px;*/
 }
 
 #toggle_photography {
@@ -299,6 +293,7 @@ a {
     border-radius: 50%;
 }
 
+/* FOOTER ELEMENTS */
 footer {
   background-color: black;
   height: 100px;
@@ -321,7 +316,6 @@ footer {
 .social-media li {
   display: inline-block;
   list-style-type: none;
-  /*padding: 20px;*/
   transition: background-color 0.2s ease-out,
               border-color 0.2s ease-out;
 }
@@ -345,7 +339,7 @@ footer {
   float: none;
 }
 
-/*PORTFOLIO*/
+/*PORTFOLIO IMAGES + TEXT */
 .grid {
 	position: relative;
 	margin: 0 auto;
@@ -355,7 +349,7 @@ footer {
 	text-align: center;
 }
 
-/* Common style */
+/* PORTFOLIO SETUP */
 .grid figure {
 	position: relative;
 	float: left;
@@ -401,8 +395,6 @@ footer {
 	height: 100%;
 }
 
-/* Anchor will cover the whole item by default */
-/* For some effects it will show as a button */
 .grid figure figcaption > a {
 	z-index: 1000;
 	text-indent: 200%;
@@ -430,7 +422,7 @@ footer {
 	font-size: 68.5%;
 }
 /*---------------*/
-/***** Marley *****/
+/***** PORTFOLIO IMAGE STYLING  *****/
 /*---------------*/
 
 figure.effect-marley figcaption {
@@ -491,6 +483,9 @@ figure.effect-marley:hover p {
 	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
 }
+
+
+/* MEDIA KITS */
 
 @media screen and (max-width: 774px) {
 
@@ -555,8 +550,6 @@ figure.effect-marley:hover p {
     .name {
       text-align: center;
       margin-top: 2%;
-/*      margin-left: 4%;*/
-/*      padding-left: 7%;*/
       float: none;
     }
 
@@ -566,7 +559,6 @@ figure.effect-marley:hover p {
     }
 
     .social-media {
-/*      margin-top: 0.5%;*/
       margin: 0 auto;
       float: none;
     }
