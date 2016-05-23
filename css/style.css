@@ -52,6 +52,7 @@ a {
   border-width: 5px;
   border-style: double;
   border-color: white;
+  display: flex;
 }
 
 .large {
@@ -84,7 +85,6 @@ a {
 /* NAV BUTTONS */
 
 .nav-boxes {
-  display: flex;
   justify-content: space-around;
   padding-left: 10vw;
   padding-right: 10vw;
@@ -237,8 +237,8 @@ a {
 
 /* TOGGLED SHOW BOXES */
 
-#toggle_about a #toggle_cv a #toggle_design a #toggle_writing a #toggle_photography a:hover,
-#toggle_about a #toggle_cv a #toggle_design a #toggle_writing a #toggle_photography a:active {
+#toggle_about a:hover,
+#toggle_about a:active {
   background-color: #fff; /*fallback*/
   background-color: rgba(255,255,255,0.4);
   border-color: #fff; /*fallback*/
@@ -271,6 +271,7 @@ a {
   padding-left: 20px;
   margin-bottom: 2%;
   margin-left: 2%;
+  justify-content: space-around;
 }
 
 #toggle_photography {
