@@ -237,6 +237,16 @@ a {
 
 /* TOGGLED SHOW BOXES */
 
+#toggle_about a #toggle_cv a #toggle_design a #toggle_writing a #toggle_photography a:hover,
+#toggle_about a #toggle_cv a #toggle_design a #toggle_writing a #toggle_photography a:active {
+  background-color: #fff; /*fallback*/
+  background-color: rgba(255,255,255,0.4);
+  border-color: #fff; /*fallback*/
+  border-color: rgba(255,255,255,0.4);
+  transition: background-color 0.3s ease-in,
+              border-color 0.3s ease-in;
+}
+
 #toggle_about {
   color: white;
   display: none;
@@ -261,9 +271,6 @@ a {
   padding-left: 20px;
   margin-bottom: 2%;
   margin-left: 2%;
-  border: 2px solid #fff;
-  /*width: 200px;
-  height: 90px;*/
 }
 
 #toggle_photography {
