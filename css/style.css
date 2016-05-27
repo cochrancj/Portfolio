@@ -53,6 +53,13 @@ a {
   border-style: double;
   border-color: white;
   display: flex;
+
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  flex-wrap: nowrap;
 }
 
 .large {
@@ -86,6 +93,9 @@ a {
 
 .nav-boxes {
   justify-content: space-around;
+  -webkit-justify-content: space-around;
+  flex-shrink: 1;
+
   padding-left: 10vw;
   padding-right: 10vw;
   padding-top: 25vh;
@@ -94,8 +104,7 @@ a {
   font-family: 'Julius Sans One', sans-serif;
 }
 
-.nav-button-about {
-  display: inline-block;
+.nav-button {
   width: 100%;
   padding: 8px;
   color: #fff;
@@ -109,115 +118,11 @@ a {
   margin: auto;
 }
 
-.nav-button-about:hover,
-.nav-button-about:active {
-  background-color: #fff; /*fallback*/
+.nav-button:hover,
+.nav-button:active {
+  background-color: #fff;
   background-color: rgba(255,255,255,0.4);
-  border-color: #fff; /*fallback*/
-  border-color: rgba(255,255,255,0.4);
-  transition: background-color 0.3s ease-in,
-              border-color 0.3s ease-in;
-}
-
-.nav-button-cv {
-  display: inline-block;
-  width: 100%;
-  padding: 8px;
-  color: #fff;
-  border: 2px solid #fff;
-  text-align: center;
-  outline: none;
-  text-decoration: none;
-  transition: background-color 0.2s ease-out,
-              border-color 0.2s ease-out;
-  cursor: pointer;
-    margin: auto;
-
-}
-
-.nav-button-cv:hover,
-.nav-button-cv:active {
-  background-color: #fff; /*fallback*/
-  background-color: rgba(255,255,255,0.4);
-  border-color: #fff; /*fallback*/
-  border-color: rgba(255,255,255,0.4);
-  transition: background-color 0.3s ease-in,
-              border-color 0.3s ease-in;
-}
-
-.nav-button-design {
-  display: inline-block;
-  width: 100%;
-  padding: 8px;
-  color: #fff;
-  border: 2px solid #fff;
-  text-align: center;
-  outline: none;
-  text-decoration: none;
-  transition: background-color 0.2s ease-out,
-              border-color 0.2s ease-out;
-  cursor: pointer;
-    margin: auto;
-
-}
-
-.nav-button-design:hover,
-.nav-button-design:active {
-  background-color: #fff; /*fallback*/
-  background-color: rgba(255,255,255,0.4);
-  border-color: #fff; /*fallback*/
-  border-color: rgba(255,255,255,0.4);
-  transition: background-color 0.3s ease-in,
-              border-color 0.3s ease-in;
-}
-
-.nav-button-photography {
-  display: inline-block;
-  width: 100%;
-  padding: 8px;
-  color: #fff;
-  border: 2px solid #fff;
-  text-align: center;
-  outline: none;
-  text-decoration: none;
-  transition: background-color 0.2s ease-out,
-              border-color 0.2s ease-out;
-  cursor: pointer;
-    margin: auto;
-
-}
-
-.nav-button-photography:hover,
-.nav-button-photography:active {
-  background-color: #fff; /*fallback*/
-  background-color: rgba(255,255,255,0.4);
-  border-color: #fff; /*fallback*/
-  border-color: rgba(255,255,255,0.4);
-  transition: background-color 0.3s ease-in,
-              border-color 0.3s ease-in;
-}
-
-.nav-button-writing {
-  display: inline-block;
-  width: 100%;
-  padding: 8px;
-  color: #fff;
-  border: 2px solid #fff;
-  text-align: center;
-  outline: none;
-  text-decoration: none;
-  transition: background-color 0.2s ease-out,
-              border-color 0.2s ease-out;
-  cursor: pointer;
-    margin: auto;
-
-}
-
-.nav-button-writing:hover,
-.nav-button-writing:active {
-  background-color: #fff; /*fallback*/
-  background-color: rgba(255,255,255,0.4);
-  border-color: #fff; /*fallback*/
+  border-color: #fff;
   border-color: rgba(255,255,255,0.4);
   transition: background-color 0.3s ease-in,
               border-color 0.3s ease-in;
