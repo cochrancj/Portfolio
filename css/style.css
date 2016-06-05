@@ -126,7 +126,7 @@ a {
   outline: none;
   text-decoration: none;
   transition: background-color 0.2s ease-out,
-              border-color 0.2s ease-out;
+  border-color 0.2s ease-out;
   cursor: pointer;
   margin: auto;
 
@@ -157,7 +157,7 @@ a {
   border-color: #fff;
   border-color: rgba(255,255,255,0.4);
   transition: background-color 0.3s ease-in,
-              border-color 0.3s ease-in;
+  border-color 0.3s ease-in;
 }
 
 .nav-boxes ul {
@@ -200,7 +200,7 @@ a {
   border-color: #fff; /*fallback*/
   border-color: rgba(255,255,255,0.4);
   transition: background-color 0.3s ease-in,
-              border-color 0.3s ease-in;
+  border-color 0.3s ease-in;
 }
 
 #toggle_about {
@@ -307,7 +307,7 @@ footer {
     border: 2px solid #fff;
     cursor: pointer;
     float: left;
-    margin: 5px;
+    margin: 4%;
     position: relative;
     overflow: hidden;
     width: 300px;
@@ -355,29 +355,27 @@ footer {
 
 /* MEDIA KITS */
 
-/*@media screen and (max-width: 1020px) {
+@media screen and (max-width: 1020px) {
 
-.nav-boxes ul {
-  list-style-type: none;
-  margin: 0 auto;
-  padding-left: 10%;
-  padding-right: 10%;
-
-  display: flex;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -moz-flex;
-  display: -webkit-flex;
-}
+  .nav-boxes ul {
+    list-style-type: none;
+    margin: 0 auto;
+    padding-left: 10%;
+    padding-right: 10%;
+    /*display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -moz-flex;
+    display: -webkit-flex;*/
+  }
   .nav-boxes li {
     float: left;
     padding: 3%;
-
-    -webkit-flex-wrap: wrap;
-    flex-wrap: wrap;
+    /*-webkit-flex-wrap: wrap;
+    flex-wrap: wrap;*/
+  }
 }
-}*/
 
 @media screen and (max-width: 774px) {
 
