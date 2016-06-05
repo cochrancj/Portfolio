@@ -12,7 +12,7 @@ $(document).ready(function(){
 
   $(".design").click(function() {
     $("#toggle_design").toggle(1000);
-    $(".jumbotron").toggleClass("large");
+    $(".jumbotron").toggleClass("extralarge");
   });
 
   $(".photography").click(function() {
