@@ -30,7 +30,7 @@ As a newly-minted Full-Stack Web Developer, I want a portfolio site that reflect
 My general approach to this project was to create a simple and yet pleasing site that works well on mobile as well as the desktop. 
 
 #### Hurdles & Unsolved Problems
-**Hurdles:** My initial design included a vertically and horizontally aligned navigation row - and that was it. 
+**Hurdles:** Those nav boxes have plagued my existence. 
 
 **Unsolved Problems:** I had to re-think my plan to make it more possible without a million breakpoints bloating my css file.
 
